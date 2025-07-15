@@ -40,7 +40,6 @@ section.hero {
     animation: slideUp 5s 2s infinite ease;
   }
 
-  /* buttons */
   & .buttons {
     display: flex;
     gap: 2rem;
@@ -80,7 +79,6 @@ section.hero {
     }
   }
 
-  /* patins */
   & > div:nth-child(2) {
     display: block;
     width: 100%;
@@ -152,12 +150,10 @@ section.hero {
 }
 
 @keyframes slideUp {
-  /* radical static */
   0%, 22% {
     transform: translateY(0);
   }
 
-  /* divertida in */
   23% {
     transform: translateY(calc(-5rem - 15px));
   }
@@ -174,13 +170,10 @@ section.hero {
     transform: translateY(calc(-5rem + 5px));
   }
 
-  /* divertida static */
   33%, 55% {
     transform: translateY(-5rem);
   }
 
-
-  /* saudável in */
   56% {
     transform: translateY(calc(-10rem - 15px));
   }
@@ -197,13 +190,10 @@ section.hero {
     transform: translateY(calc(-10rem + 5px));
   }
 
-  /* saudável static */
   66%, 88% {
     transform: translateY(-10rem);
   }
 
-
-  /* radical in */
   89% {
     transform: translateY(calc(-15rem - 15px));
   }
